@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+      integrity="sha512-ZwR7+y7+5L0Qh7V3Vj7F4L6Jm98ipnSw2y5LZxZZo5AknsVLM3P+ZxqJY5N8IjtC5rVhSgXn6JwLgZ3wlA7v0g==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe DUNDHO</h1>
+            <form >
+                <input type="text" placeholder="Search for recipe" class="searchBox">
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>Search for favourite recipe...</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-btn"><i class="fa-solid fa-xmark"></i></button>
+                <div class="recipe-detail-contain"></div>
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
